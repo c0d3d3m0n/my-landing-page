@@ -1,11 +1,10 @@
-import Header from '@/components/Header';
+import MainContainer from '@/components/MainContainer';
 
-export default function Projects() {
+export default function About() {
   return (
-    <>
-      <Header />
-      <h1>Projects</h1>
-      <p>This is the projects page</p>
-    </>
+    <MainContainer>
+      <h1 className='text-4xl text-center'>Projects</h1>
+      <p className='text-center'>Coming soon</p>
+    </MainContainer>
   );
 }

@@ -1,11 +1,10 @@
-import Header from '@/components/Header';
+import MainContainer from '@/components/MainContainer';
 
 export default function Home() {
   return (
-    <>
-      <Header />
-      <h1>Home</h1>
-      <p>This is the home page</p>
-    </>
+    <MainContainer>
+      <h1 className='text-4xl text-center'>Home</h1>
+      <p className='text-center'>Welcome to my landing page!</p>
+    </MainContainer>
   );
 }

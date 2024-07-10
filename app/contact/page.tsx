@@ -1,11 +1,10 @@
-import Header from '@/components/Header';
+import MainContainer from '@/components/MainContainer';
 
-export default function Contact() {
+export default function About() {
   return (
-    <div>
-      <Header />
-      <h1>Contact</h1>
-      <p>This is the contact page</p>
-    </div>
+    <MainContainer>
+      <h1 className='text-4xl text-center'>Contact</h1>
+      <p className='text-center'>[Contact placeholder]</p>
+    </MainContainer>
   );
 }

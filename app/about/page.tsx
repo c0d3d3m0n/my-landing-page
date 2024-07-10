@@ -1,11 +1,10 @@
-import Header from '@/components/Header';
+import MainContainer from '@/components/MainContainer';
 
 export default function About() {
   return (
-    <div>
-      <Header />
-      <h1>About</h1>
-      <p>This is the about page</p>
-    </div>
+    <MainContainer>
+      <h1 className='text-4xl text-center'>About</h1>
+      <p className='text-center'>I am a web developer.</p>
+    </MainContainer>
   );
 }
